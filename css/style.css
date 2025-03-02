@@ -1,0 +1,112 @@
+/* skip to main */
+.skip {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+/* navigation bar */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #00274C;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* highlight the current webpage */   
+a.current {
+    color: #FFCB05;
+}
+
+h1 {
+    font-size: large;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    color: #00274C;
+    font-weight: bolder;
+    padding: 20px 0 20px 0;
+}
+
+#logo {
+    max-width: 10%;
+}
+
+
+/* general format */
+li {
+    font-size: medium;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    padding: 5px 0 5px 0;
+}
+
+p {
+    font-size: medium;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    padding: 5px 0 5px 0;
+}
+
+h2{
+    font-size: large;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    border: solid #00274C 2px;
+    background: #00274C;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* main content */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section h2{
+    font-size: large;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    border: solid #00274C 2px;
+    background: #00274C;
+    color: #FFFFFF;
+    font-weight: bolder;
+    grid-column: 1 / -1;
+}
+
+section p{
+    font-size: medium;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    grid-column: 1 / -1;
+}
+
+section article {
+    border: 5px dashed #75988d;
+    padding: 15px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+section article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
