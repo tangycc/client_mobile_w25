@@ -59,6 +59,14 @@ p {
     padding: 5px 0 5px 0;
 }
 
+h1{
+    font-size: large;
+    font-family: Montserrat, Nunito Sans, Merriweather;
+    color: #00274C;
+    font-weight: bolder;
+    padding: 10px;
+}
+
 h2{
     font-size: large;
     font-family: Montserrat, Nunito Sans, Merriweather;
@@ -77,6 +85,10 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+div {
+    padding: 10px;
 }
 
 
